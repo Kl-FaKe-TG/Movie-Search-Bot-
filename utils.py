@@ -39,6 +39,7 @@ class temp(object):
     U_NAME = None
     B_NAME = None
     SETTINGS = {}
+    SEND_ALL_TEMP = {}
 
 async def is_subscribed(bot, query):
     try:
